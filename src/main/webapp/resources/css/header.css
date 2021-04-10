@@ -1,0 +1,27 @@
+.header-container {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #4C4C4C;
+}
+.header-button {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    width: 10%;
+    border-color: white;
+    border-width: 3px;
+}
+.link-header, .link-header:active, .link-header:focus{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.link-header:hover {
+    color: red;
+    text-decoration: none;
+}
+
